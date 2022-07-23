@@ -1,0 +1,37 @@
+.homepage-content{
+    display: flex;
+    margin-left: 15%;   
+}
+
+.homepage-leftContent{
+    width: 52%;
+    margin-top: 10%;
+}
+
+.homepage-leftContent>h5{
+    margin: 4% 0 0 7%;
+}
+
+.homepage-title{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.searchzipcode{
+    width: 55%;
+    height: 10%;
+    margin: 4% 0% 2% 2%;
+
+}
+.searchfood{
+    width: 55%;
+    height: 10%;
+    margin-left: 2%;    
+}
+
+.homepage-image{
+    margin-top: 10%;
+    width: 33rem;
+    height: 28rem;
+    border-radius: 50px;
+}

@@ -1,0 +1,88 @@
+.cardpic{
+    width: 17.5rem !important;
+    height: 11rem;    
+    margin-top: 0;
+    border-radius: 12px;    
+}
+
+.card{    
+    margin: 0.2rem 0.4rem !important;
+    width: 17.6rem;
+    box-shadow: 2px 2px rgb(244, 238, 238);
+    height: 17.2rem;    
+    border-radius: 12px;
+}
+
+.cardContent{
+    display: flex;
+    width: 17.6rem; 
+    margin-right: 2rem !important;     
+}
+.cardTitle{
+    margin-left: 0.6rem;
+    width: 16rem;    
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.cardDesc{
+    margin-left: 0.6rem;   
+    color: rgb(220, 30, 30); 
+    font-size: 1rem;
+    font-weight: 500;
+    width: 16rem; 
+    margin-bottom: 5px;
+}
+
+.itemtype{    
+    width: 4%; 
+    height: 0.8rem;   
+    margin-top: 0.5rem;
+}
+
+.cardCount{
+    font-size: 1.2rem;
+    width: 100%;
+    font-weight: 460;
+    padding-left: 0.5rem !important;    
+    color: rgb(35, 33, 33);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.Cardprice{
+    font-size: 0.9rem;
+    /* margin: 0.2rem; */
+    margin-top: 0.4rem;    
+    color: rgb(76, 54, 197);
+}
+
+.cardMessgae{
+    margin-left: 0.6rem; 
+    margin-top: 0;   
+    font-size: small;
+    font-weight: 400;
+    width: 16rem;
+    color: rgb(104, 91, 73); 
+    border-top: 1px solid rgb(218, 214, 214);
+}
+
+.rating{
+    margin: 5px 8px 1px 10px;
+    height: 10px;
+    font-weight: 700;
+    height: 22px;
+    color: rgb(0, 0, 0);
+    background:  rgb(241, 241, 94);
+    border: 1px solid yellow;
+    border-radius: 80px;
+}
+.rating h6{
+    margin: 0 6px 2px 6px;
+}
+
+.ant-card-body{
+    padding: 0px!important;
+    border: none;
+}

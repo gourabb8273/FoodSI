@@ -1,0 +1,120 @@
+.filter-section {
+  padding-top: 0.1rem;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.filter-header {
+  background: rgb(250, 247, 247);
+  padding: 0.3rem;
+  border-radius: 5px;
+  display: flex;
+  margin: 1rem;
+  margin-top: 0rem;
+}
+
+.filter-header > Button {
+  margin-left: 6rem;
+  background: rgb(232, 56, 56);
+  border: 1px solid rgb(232, 56, 56);
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+  padding: 5px;
+}
+
+.filter-header > Button:hover {
+  border: 1px solid rgb(232, 56, 56);
+  color: white;
+  background: rgb(195, 51, 7);
+}
+
+.dietary-section {
+  margin: 1.3rem;
+}
+
+.dType {
+  margin: 5px;
+  padding: 3px 9px;
+  border-radius: 20px !important;
+  font-size: 0.9rem;
+  /* background:rgba(235, 235, 235, 0.597); */
+  border: 1px solid rgba(221, 220, 220, 0.975);
+}
+
+.dType:hover {
+  color: black;
+  /* background: rgba(204, 204, 204, 0.497);     */
+}
+
+.dTypeActive {
+  margin: 5px;
+  padding: 3px 9px;
+  border-radius: 20px !important;
+  font-size: 0.9rem;
+  color: #0d6efd !important;
+  background: rgba(235, 235, 235, 0.597);
+  border: 1px solid #0d6efd !important;
+}
+
+.dietary-header {
+  display: flex;
+}
+
+.dietary-header > button {
+  margin-left: 45%;
+  border: none;
+  background: white;
+  color: rgb(128, 34, 183);
+  font-style: initial;
+}
+
+.dietary-header > button:hover {
+  margin-left: 45%;
+  border: none;
+  background: white;
+  color: rgb(0, 0, 0);
+  font-style: initial;
+}
+
+.rating-section {
+  margin: 1.3rem;
+  margin: top 1rem !important;
+  width: 85%;
+}
+.rating-section h6 {
+  margin: 0rem 0 1.3rem 0;
+}
+
+.distance-section {
+  margin: 1.3rem;
+  margin-top: 0.1rem;  
+  width: 85%;
+}
+.distance-section h6 {
+  margin: 0rem 0 1.3rem 0;
+}
+
+.ant-slider-mark span{    
+    font-size: small;
+    width: 20%;
+}
+
+.price-section {
+    /* border: 1px solid red; */
+    margin: 1.3rem;
+    margin-top: 0.1rem;  
+    width: 85%;
+  }
+  .price-section h6 {
+    margin: 0rem 0 1.3rem 0;
+  }
+
+.price-section-row h7{    
+    font-size: small;
+    margin: 0.2rem;
+}
+.price-section-input{
+    margin-top: 1.4rem;
+}
+

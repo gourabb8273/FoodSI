@@ -1,0 +1,31 @@
+@media (max-width: 52rem) {
+  .modal-content {
+    width: 70%;
+    text-align: center;
+    left: 15%;
+  }
+}
+
+@media (max-width: 52rem) {
+  .modal-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 52rem) {
+  .modal-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .modal-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .modal-description {
+    font-size: 0.8rem;
+  }
+}

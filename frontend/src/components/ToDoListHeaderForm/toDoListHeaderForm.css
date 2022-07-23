@@ -1,0 +1,129 @@
+:root {
+  --border-color: rgba(78, 78, 87, 0.596);
+}
+
+.todolist-header__container > h2 {
+  margin: 1% 2%;
+  color: rgb(36, 14, 10);
+  padding: 1%;
+  border-radius: 4px;
+  background: rgba(229, 229, 250, 0.507);
+  font-family: inherit;
+}
+
+@media (max-width: 52rem) {
+  .todolist-header__container > h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .todolist-header__container > h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .todolist-header__container > h2 {
+    font-size: 1rem;
+  }
+}
+
+.todolist-form {
+  width: 96%;
+  height: 69px;
+  background: rgba(207, 207, 240, 0.575);
+  border-radius: 3px;
+  padding-left: 0px;
+  display: flex;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+@media (max-width: 52rem) {
+  .todolist-form {
+    height: 60px;
+  }
+}
+
+@media (max-width: 44rem) {
+  .todolist-form {
+    height: 50px;
+  }
+}
+
+.todolist-form__input {
+  width: 69%;
+  outline: none;
+  margin: 1px;
+  margin-left: 0px;
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+}
+
+.todolist-form__input[type="text"] {
+  font-size: 20px;
+}
+
+.todolist-form__input:focus {
+  padding-left: 20px;
+}
+
+::placeholder {
+  padding-left: 20px;
+  font-size: large;
+}
+
+.todolist-form__submit {
+  width: 14%;
+  margin: 6px;
+  margin-left: 10px;
+}
+
+@media (max-width: 52rem) {
+  .todolist-form__submit {
+    font-size: 0.8rem;
+    margin: 2px;
+    width: 20%;
+  }
+}
+
+.todolist-search {
+  margin: 0% 32% 1% 20%;
+  width: 55%;
+  height: 2.8rem;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.todolist-search:focus {
+  padding-left: 20px;
+}
+
+.todolist-clear {
+  margin: 6px;
+  width: 14%;
+  margin-right: 11px;
+}
+
+@media (max-width: 52rem) {
+  .todolist-clear {
+    width: 20%;
+    margin: 2px;
+  }
+}
+
+.todolist-clear__button {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 52rem) {
+  .todolist-clear__button {
+    font-size: 0.67rem;
+  }
+}

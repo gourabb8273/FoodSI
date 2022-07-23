@@ -1,0 +1,17 @@
+.foodIcon{
+    width: 6rem;    
+}
+
+.foodIconSection{    
+    display: flex;
+    margin: 2% 2% 2% 20%;
+}
+
+.foodIconImage{
+    width: 60% !important;
+    margin: 2% 1% 0% 1%;    
+}
+
+.foodIconTite{
+    margin: 0.2rem 0.6rem;
+}
