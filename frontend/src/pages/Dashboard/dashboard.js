@@ -18,7 +18,7 @@ function Dashboard(props) {
   const [searchText, setSearchText] = useState("");
   const isLoggedIn = Cookies.get("jwtAuth");
   const dispatch = useDispatch();
-   
+
   const foodIcons = [
     { imageTitle: "Indian", imageHref: "bibimbap.png" },
     { imageTitle: "American", imageHref: "diet.png" },
@@ -65,8 +65,8 @@ function Dashboard(props) {
         </div>
         <div className="dashboardBody">
           <div className="dashboardFilter"><RestaurantsFilter/></div>
-          <div className="dashboardFoodCard">
-            <FoodCard searchText={searchText} filters={filters} restaurantList={restaurantLists} />
+          <div className="dashboardFoodCard">          
+            <FoodCard searchText={searchText} filters={filters} restaurantList={restaurantLists} />            
           </div>
         </div>
       </div>

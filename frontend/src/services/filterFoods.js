@@ -2,7 +2,6 @@
  * Filter food item on given search item
  */
 function filterFoods(restaurantList, filters, searchText) {
-  debugger;
   // let filteredRestaurant = restaurantList;
   let filteredRestaurantSearched = [];
   let seachedRestaurant = restaurantList;
@@ -16,7 +15,6 @@ function filterFoods(restaurantList, filters, searchText) {
         products.productName.toLowerCase().includes(searchText.toLowerCase())
       );
       if (!!foodItem.length) {
-        debugger;
         filteredRestaurantSearched.push({
           ...item,
           businessCoverImage: foodItem[0].productPhoto

@@ -41,6 +41,11 @@
     margin-top: 0.5rem;
 }
 
+.foodCardLink{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cardCount{
     font-size: 1.2rem;
     width: 100%;

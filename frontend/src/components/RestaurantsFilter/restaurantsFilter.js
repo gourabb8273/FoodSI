@@ -6,37 +6,16 @@ import { useDispatch, useSelector } from "react-redux";
 
 import "./restaurantsFilter.css";
 import { addFilter } from "../../store/slices/filterSlice";
-
+import distanceMarks from "../../Constant/distanceRange";
+import ratingsMarks from "../../Constant/ratingsMarks";
+import dietaryCategories from "../../Constant/dietaryCategories";
 /**
  * @author
  * @function RestaurantsFilter
  **/
-const ratingsMarks: SliderMarks = {
-  1: "1",
-  2: "2",
-  3: "3",
-  4: "4",
-  5: "5",
-};
-
-const distanceMarks = {
-  1: "1 km",
-  3: "3 km",
-  5: "5 km",
-  8: "8 km",
-  10: "10 km",
-};
-
-const initialStateDietary = [
-  { title: "Non-Veg", isActive: false },
-  { title: "Veg", isActive: false },
-  { title: "Vegan", isActive: false },
-  { title: "Gluten Free", isActive: false },
-  { title: "Halal", isActive: false },
-];
 
 const filterInitialValues = {
-  dietary: initialStateDietary,
+  dietary: dietaryCategories,
   ratingRange: [1, 5],
   distanceRange: [1, 10],
   priceRange: { min: 1, max: 100 },
@@ -67,7 +46,6 @@ function RestaurantsFilter(props) {
   }
 
   const handleMinPriceChange = (newValue: number) => {
-    debugger;
     setFilterValues({
       ...filtervalues,
       priceRange: { ...filtervalues.priceRange, min: newValue },
@@ -100,8 +78,7 @@ function RestaurantsFilter(props) {
     setClearEnable(true);
   }
 
-  function handleResetDietaryType() {
-    debugger;
+  function handleResetDietaryType() {    
     setFilterValues({ ...filtervalues, dietary: filterInitialValues.dietary });
     if (      
       filterInitialValues.distanceRange == filtervalues.distanceRange &&

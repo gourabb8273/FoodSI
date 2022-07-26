@@ -28,3 +28,9 @@
   width: 78%;
   flex-wrap: wrap;  
 }
+
+.dashboardFoodCardLink{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;  
+}

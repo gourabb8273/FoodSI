@@ -10,8 +10,7 @@ const filterSlice = createSlice({
   name: "filter",
   initialState,
   reducers: {
-    addFilter: (state, action) => {
-        debugger;   
+    addFilter: (state, action) => { 
       const newState = {
         filter: action.payload,
       };
