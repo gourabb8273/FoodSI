@@ -12,7 +12,11 @@ function filterFoods(restaurantList, filters, searchText) {
     let filteredProduct;
     restaurantList.filter((item) => {
       foodItem = item.product.filter((products) =>
-        products.productName.toLowerCase().includes(searchText.toLowerCase())
+        products.productName.toLowerCase().includes(searchText.toLowerCase()) 
+        // || 
+        // products.businessName.toLowerCase().includes(searchText.toLowerCase())
+        //  || 
+        // products.subCategoryId.toLowerCase().includes(searchText.toLowerCase())
       );
       if (!!foodItem.length) {
         filteredRestaurantSearched.push({

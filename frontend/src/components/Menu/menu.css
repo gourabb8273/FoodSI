@@ -1,0 +1,34 @@
+.menu-section {
+  margin: 1rem;
+  margin-left: 3rem;
+}
+
+.menu-section > h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuHeader {
+  display: flex;
+}
+
+.menuHeader h4 {
+  margin-right: 7.2rem;
+}
+
+.menuHeader Input {
+  width: 20%;
+  height: 2.3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(203, 203, 203);
+}
+
+.icon-search-menu {
+  font-size: 1.5rem;
+  position: relative;
+  right: 19.5%;
+  top: 50%;
+  margin: 7px;
+  color: rgb(138, 132, 132);
+}

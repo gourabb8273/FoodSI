@@ -26,7 +26,7 @@ function IndexRoute() {
             <Route exact path="/" element={<App />} />
             <Route exact path="/login" element={<LoginForm />} />
             <Route exact path="/dashboard" element={<Dashboard />} />
-            <Route exact path="/restaurant" element={<RestaurantPage />} />
+            <Route exact path="/restaurant/:id" element={<RestaurantPage />} />
             <Route path="/*" element={<PageNotFound />} />
           </Routes>
         </Router>      
