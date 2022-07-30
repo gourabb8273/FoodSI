@@ -60,6 +60,7 @@ function FoodCard({ searchText, restaurantList, filters }) {
             productPrice,
             phoneNumber,
             isVeg,
+            reviews,
           }) => {
             return (
               <div className="card">
@@ -82,6 +83,7 @@ function FoodCard({ searchText, restaurantList, filters }) {
                       product,
                       productPrice,
                       isVeg,
+                      reviews,
                     })
                   }
                 >

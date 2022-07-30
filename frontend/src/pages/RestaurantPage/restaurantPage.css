@@ -126,3 +126,20 @@
 .menuTab .ant-tabs-tab-btn{    
   font-size: 1.1rem; 
 }
+
+.imageGallery{
+  margin: 3rem 10rem;
+  width: 35%;
+  height: 20rem; 
+  object-fit: contain;
+}
+
+.image-gallery-slides {
+  width: 100%;
+  height: 20rem !important;
+  object-fit: contain;
+}
+
+.image-gallery-image {
+  object-fit: contain;
+}

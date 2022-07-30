@@ -11,12 +11,45 @@ export const restaurantList = [
     zipcode: 80112,
     emailId: "SharmaJi@gmail.com",
     vendorRating: 4,
-    numberOfOrderedPlaced:102,
+    numberOfOrderedPlaced: 102,
     subCategoryId: "South Indian",
     dietry: "Veg",
     tag: "Newly Added",
     foodSafetyCertified: "Yes",
-    reviews: "53",    
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     product: [
       {
         productId: "2225",
@@ -70,12 +103,45 @@ export const restaurantList = [
     zipcode: 80113,
     emailId: "PandyaJi@gmail.com",
     vendorRating: 4,
-    numberOfOrderedPlaced:151,
+    numberOfOrderedPlaced: 151,
     subCategoryId: "0",
     dietry: "Non Veg",
     tag: "Trending",
     foodSafetyCertified: "No",
-    reviews: "95",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "South food",
     product: [
       {
@@ -158,12 +224,45 @@ export const restaurantList = [
     zipcode: 80114,
     emailId: "MishraJi@gmail.com",
     vendorRating: 5,
-    numberOfOrderedPlaced:46,
+    numberOfOrderedPlaced: 46,
     subCategoryId: "Sweets",
     dietry: "Vegan",
     tag: "Newly Added",
     foodSafetyCertified: "Yes",
-    reviews: "105",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "South Indian",
     product: [
       {
@@ -272,12 +371,45 @@ export const restaurantList = [
     zipcode: 80115,
     emailId: "PunjabiChef@gmail.com",
     vendorRating: 3,
-    numberOfOrderedPlaced:221,
+    numberOfOrderedPlaced: 221,
     subCategoryId: "South Indian",
     dietry: "Non Veg",
     tag: "Highly Ordered",
     foodSafetyCertified: "Yes",
-    reviews: "125",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Fast food",
     product: [
       {
@@ -373,12 +505,45 @@ export const restaurantList = [
     zipcode: 80116,
     emailId: "GujratiTadka@gmail.com",
     vendorRating: 4,
-    numberOfOrderedPlaced:250,
+    numberOfOrderedPlaced: 250,
     subCategoryId: "Bakery",
     dietry: "Non Veg",
     tag: "Newly Added",
     foodSafetyCertified: "No",
-    reviews: "83",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Regular Thali",
     product: [
       {
@@ -422,12 +587,45 @@ export const restaurantList = [
     zipcode: 80117,
     emailId: "BengaliSweets@gmail.com",
     vendorRating: 3,
-    numberOfOrderedPlaced:236,
+    numberOfOrderedPlaced: 236,
     subCategoryId: "West Indian",
     dietry: "Vegan",
     tag: "Highly Ordered",
     foodSafetyCertified: "Yes",
-    reviews: "120",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Spicy Chicken",
     product: [
       {
@@ -484,12 +682,45 @@ export const restaurantList = [
     zipcode: 80118,
     emailId: "TasteofIndia@gmail.com",
     vendorRating: 4,
-    numberOfOrderedPlaced:56,
+    numberOfOrderedPlaced: 56,
     subCategoryId: "East Indian",
     dietry: "Non Veg",
     tag: "Trending",
     foodSafetyCertified: "Yes",
-    reviews: "74",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Fried Chicken",
     product: [
       {
@@ -540,7 +771,8 @@ export const restaurantList = [
         productRating: "5",
         productDescription: "Gujrati flavored dish etc etc",
         productSubDescription: "",
-        productPhoto: "https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg",
+        productPhoto:
+          "https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg",
         isVeg: "true",
       },
     ],
@@ -558,12 +790,45 @@ export const restaurantList = [
     zipcode: 80119,
     emailId: "ParathaGalli@gmail.com",
     vendorRating: 4,
-    numberOfOrderedPlaced:171,
+    numberOfOrderedPlaced: 171,
     subCategoryId: "Chinese",
     dietry: "Non Veg",
     tag: "Highly Ordered",
     foodSafetyCertified: "No",
-    reviews: "195",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Indian Dish",
     product: [
       {
@@ -606,12 +871,45 @@ export const restaurantList = [
     zipcode: 80120,
     emailId: "BestBakery@gmail.com",
     vendorRating: 3,
-    numberOfOrderedPlaced:169,
+    numberOfOrderedPlaced: 169,
     subCategoryId: "Thali",
     dietry: "Vegan",
     tag: "Trending",
     foodSafetyCertified: "No",
-    reviews: "158",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Indian Dish",
     product: [
       {
@@ -668,12 +966,45 @@ export const restaurantList = [
     zipcode: 80121,
     emailId: "JustSweets@gmail.com",
     vendorRating: 5,
-    numberOfOrderedPlaced:88,
+    numberOfOrderedPlaced: 88,
     subCategoryId: "Dessert",
     dietry: "Non Veg",
     tag: "Newly Added",
     foodSafetyCertified: "No",
-    reviews: "97",
+    reviews: [
+      {
+        overallRating: 4.2,
+        author: "Gourab Banerjee",
+        title: "Must buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 2.2,
+        author: "Rohit Banerjee",
+        title: "Highly recommended buy",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 3.2,
+        author: "Suman Roy",
+        title: "Good one",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+      {
+        overallRating: 5,
+        author: "Rahul Banerjee",
+        title: "Excellent",
+        description:
+          "Overall functions are good camera Quility is quit good and nice this is best camera smartphone in this range so any budy can buy it for hard use",
+        updatedOn: "2022-07-30T18:38:38.654Z",
+      },
+    ],
     subCategoryId: "Indian Dish",
     product: [
       {

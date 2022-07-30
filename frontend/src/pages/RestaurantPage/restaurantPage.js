@@ -1,10 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { PhoneOutlined } from "@ant-design/icons";
+import ImageGallery from 'react-image-gallery';
 
 import "./restaurantPage.css";
 import { Button, Tabs } from "antd";
-import Menu from "../../components/Menu/menu"
+import Menu from "../../components/Menu/menu";
+import ReviewSection from "../../components/ReviewSection/reviewSection"
+// import from "react-image-gallery/styles/css/image-gallery.css"
+import "react-image-gallery/styles/css/image-gallery.css"
 
 const { TabPane } = Tabs;
 /**
@@ -13,6 +17,21 @@ const { TabPane } = Tabs;
  **/
 
 function RestaurantPage(props) {
+    const images = [
+        {
+          original: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmymuNkU0lPwQWdiRlw1AIYV09GUL-VsPp4A&usqp=CAU',
+          thumbnail: 'https://picsum.photos/id/1018/250/150/',
+          originalWidth: "20",
+        },
+        {
+          original: 'https://www.cookingcarnival.com/wp-content/uploads/2015/05/Rava-Dosa-2.jpg',
+          thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        },
+        {
+          original: 'https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-64.jpg',
+          thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        },
+      ];
   const dispatch = useDispatch();
   const selectedRestaurant = useSelector(
     (state) => state.selectedRestaurant.activeRestaurant
@@ -72,11 +91,14 @@ function RestaurantPage(props) {
           <TabPane className="menuTabPane" tab="Menu" key="1">
             <Menu product={selectedRestaurant.product}/>
           </TabPane>
-          <TabPane tab="Review" key="2">
-            Content of Tab Pane 2
+       
+          <TabPane tab="Photos" key="3">  
+          <div className="imageGallery">
+            <ImageGallery sizes={20} originalWidth={"200"} items={images} />
+            </div>
           </TabPane>
-          <TabPane tab="Photos" key="3">
-            Content of Tab Pane 3
+          <TabPane tab="Review" key="2">
+            <ReviewSection reviews={selectedRestaurant.reviews}/>
           </TabPane>
         </Tabs>
       </div>
